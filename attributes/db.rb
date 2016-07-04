@@ -1,0 +1,5 @@
+default['tracksapp']['dbhost'] = 'localhost'
+default['tracksapp']['dbuser'] = 'tracks'
+default['tracksapp']['dbname'] = 'tracks'
+default['tracksapp']['dbpass'] = 'tracks'
+default['tracksapp']['dbversion'] = '9.3'

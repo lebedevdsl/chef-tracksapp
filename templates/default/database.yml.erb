@@ -1,0 +1,9 @@
+production:
+  adapter: postgresql
+  database: <%= node['tracksapp']['dbname'] %>
+  # set this if you are storing utf8 in your mysql database to handle strings
+  # like "Réné".Not needed for sqlite. For PostgreSQL use encoding: unicode
+  encoding: unicode
+  host: <%= node['tracksapp']['dbhost'] %>
+  username: <%= node['tracksapp']['dbuser'] %>
+  password: <%= node['tracksapp']['dbpass'] %>

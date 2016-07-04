@@ -1,0 +1,10 @@
+name             'tracksapp'
+maintainer       'Dmitry Lebedev'
+maintainer_email 'lebedevdsl@gmail.com'
+license          'MIT'
+description      'Installs/Configures tracksapp'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+depends          'nginx'
+depends          'postgresql_lwrp'
+depends          'rvm'
